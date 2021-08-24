@@ -1,0 +1,28 @@
+@media (max-width: 1060px){
+    .navigation{
+        display: none;
+    }
+    .burger-bar{
+        display: block;
+    }
+    .main-section{
+        flex-direction: column;
+    }
+    .left-div{
+        width: 60%;
+    }
+    .right-div{
+        width: 80%;
+    }
+    .business-circles{
+        justify-content: center;
+    }
+    .footer-div{
+        flex-wrap: wrap;
+    }
+}
+@media (max-width: 840px){
+    .business-circles{
+        flex-wrap: wrap;
+    }
+}

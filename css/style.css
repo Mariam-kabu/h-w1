@@ -2,8 +2,9 @@ body{
     background-color: #efd5cf;
 }
 header{
-    width: 100%;
-    margin: 15px 140px;
+    margin-top: 15px;
+    margin-left: 15%;
+    position: relative;
 }
 .header-div{
     max-width: 700px;
@@ -45,11 +46,23 @@ header{
     text-transform: uppercase;
     font-family:'Times New Roman', Times, serif;
 }
+.nav-a:hover{
+    color: deepskyblue;
+}
 .active{
     color: deepskyblue;
     font-size: large;
     text-transform: uppercase;
     font-family:'Times New Roman', Times, serif;
+}
+.burger-bar{
+    font-family:'Times New Roman', Times, serif;
+    font-size: 28px;
+    color: rgb(252, 78, 107);
+    position: absolute;
+    top: 15px;
+    right: 10%;
+    display: none;
 }
 main{
     max-width: 1200px;
@@ -121,6 +134,7 @@ main{
 }
 .circle:nth-child(3){
     background-color: greenyellow;
+    margin-right: 0;
 }
 .circle span{
     color: white;
@@ -139,6 +153,46 @@ main{
 footer{
     width: 100%;
     height: auto;
-    padding: 20px;
+    padding: 50px;
     background-color: rgb(252, 78, 107);
+}
+.footer-div{
+    margin: 0 auto;
+    max-width: 1200px;
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.footer-child{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+.span-icon{
+    color: rgb(252, 78, 107);
+    font-size: 24px;
+    background-color: darkturquoise;
+    padding: 6px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+.span-icon:hover{
+    background-color: rgb(252, 78, 107);
+    color: white;
+}
+.info{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+}
+.info a,
+.info span{
+    font-family:'Times New Roman', Times, serif;
+    color: white;
+    font-size: 15px;
+    line-height: 24px;
 }
